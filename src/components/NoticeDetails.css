@@ -1,0 +1,78 @@
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.details-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.detail-section {
+  margin-bottom: 25px;
+}
+
+.detail-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-section p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #007acc;
+  font-size: 1.2rem;
+}
+
+.back-button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #005fa3;
+}
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  /* 🌈 Gradient Background */
+  background: linear-gradient(135deg, #74ebd5, #9face6); 
+}
+
