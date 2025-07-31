@@ -5,10 +5,12 @@ import NoticeDetails from './components/NoticeDetails';
 
 function App() {
   return (
+    <HashRouter>
     <Routes>
       <Route path="/" element={<NoticeBoard />} />
       <Route path="/notice/:id" element={<NoticeDetails />} />
     </Routes>
+    </HashRouter>
   );
 }
 
